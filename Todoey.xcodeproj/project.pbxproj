@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		793A5F0721B57BF6005D3C39 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793A5F0621B57BF6005D3C39 /* CategoryViewController.swift */; };
 		79D51D7821B4069900B5B4A2 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79D51D7621B4069900B5B4A2 /* DataModel.xcdatamodeld */; };
 		79EF273B21B02E8000F31BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF273A21B02E8000F31BB9 /* AppDelegate.swift */; };
 		79EF273D21B02E8000F31BB9 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF273C21B02E8000F31BB9 /* TodoListViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		793A5F0621B57BF6005D3C39 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		79D51D7721B4069900B5B4A2 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		79EF273721B02E8000F31BB9 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EF273A21B02E8000F31BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		79395DCC21B30632002E12AC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				793A5F0621B57BF6005D3C39 /* CategoryViewController.swift */,
 				79EF273C21B02E8000F31BB9 /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793A5F0721B57BF6005D3C39 /* CategoryViewController.swift in Sources */,
 				79EF273D21B02E8000F31BB9 /* TodoListViewController.swift in Sources */,
 				79D51D7821B4069900B5B4A2 /* DataModel.xcdatamodeld in Sources */,
 				79EF273B21B02E8000F31BB9 /* AppDelegate.swift in Sources */,
